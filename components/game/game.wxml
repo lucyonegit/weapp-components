@@ -1,0 +1,15 @@
+<view class="gamecontent">
+    <view class="starbar">
+        <view class="container-out">
+            <view class="cel {{item.status?'shine':''}}" wx:for="{{cel}}" wx:for-item="item" wx:key="index" style="top:{{item.top}}rpx;left:{{item.left}}rpx"></view>
+            <view class="container-in">
+                <view class="content-out" wx:for="{{awardList}}" wx:key="{{index}}" style="top:{{item.topAward}}rpx;left:{{item.leftAward}}rpx;box-shadow:{{isRunning && index!=indexSelect?'0 16rpx 0 rgb(255,169,136);':'0 16rpx 0 rgb(255,223,194)'}} ">                     {{index}}
+                    <view class="iconmask" wx:if="{{isRunning && index!=indexSelect}}"></view>
+                </view>
+                <view class="start-btn" bindtap="startGame">
+                    开始
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

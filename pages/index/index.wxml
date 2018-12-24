@@ -1,0 +1,3 @@
+<view>
+   <game id="game"  bind:showLottery="showLottery"></game>
+</view>

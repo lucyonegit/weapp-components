@@ -1,0 +1,90 @@
+.container-in {
+  width: 630rpx;
+  height: 568rpx;
+  background: rgb(255,88,48);
+  position: relative;
+  border-radius: 24rpx;
+}
+.iconmask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,188,164,0.5);
+    border-radius: 15rpx;
+}
+
+.starbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:200rpx 0 0 0;
+}
+.content-out {
+  position: absolute;
+  box-sizing: border-box;
+  height: 160rpx;
+  width: 145rpx;
+  background-color: rgb(255,250,240);
+  color: #555;
+  font-size: 28rpx;
+  border-radius: 15rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.start_btn_mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    background: rgba(255,154,30,0.3);
+    border-radius: 15rpx;
+}
+.start-btn {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 160rpx;
+  width: 300rpx;
+  background-color: rgb(249,74,36);
+  border-radius: 15rpx;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  transform: translateY(-8rpx);
+  box-shadow: 0 16rpx 0 rgb(255,205,3);
+  line-height: 160rpx;
+  font-size: 36rpx;
+}
+
+.container-out{
+    position: relative;
+    width: 690rpx;
+    height: 627rpx;
+    background: linear-gradient(-269deg, #FFD032 0%, #FEE04B 100%);
+    box-shadow: inset 2px 2px 24px 0 rgba(255,128,6,0.50);
+    border-radius: 40rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cel{
+    width: 10rpx;
+    height: 10rpx;
+    position: absolute;
+    border-radius: 10rpx;
+    background: #FFFABB;
+}
+.shine{
+    background: #FF6748;
+}
